@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Чистый JS</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.36" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<header></header>
+<div class=container></div>
+
+<button id=crbut onclick="parsemenu(menujs)" type="button">Создать меню</button>
+<script>
+var jsmenu = '{\
+"menu": [\
+	{"logo": [\
+		{"element":\
+			{\
+				"class": "logo-max",\
+				"img": "/header/Logo.svg"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "logo-min",\
+				"img": "/header/Vector.svg"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "break"\
+			}\
+		}\
+	]},\
+	{"middle":[\
+		{"element":\
+			{\
+				"class": "item eight",\
+				"img": "/menu/icon - Intersect-9.svg",\
+				"st": "Task",\
+				"md": "",\
+				"mc": "m3"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "item eight",\
+				"img": "/menu/icon - Intersect-8.svg",\
+				"st": "Calendar",\
+				"md": "eight",\
+				"mc": "m3"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "item eight",\
+				"img": "/menu/icon - Intersect-7.svg",\
+				"st": "Staff",\
+				"md": "seven",\
+				"mc": "m3"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "item seven",\
+				"img": "/menu/icon - Intersect-6.svg",\
+				"st": "Link",\
+				"md": "six",\
+				"mc": "m3"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "item six",\
+				"img": "/menu/icon - Intersect-5.svg",\
+				"st": "Task",\
+				"md": "five",\
+				"mc": "m3",\
+				"imm": "/menu/icon-frame-6.png"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "item five",\
+				"img": "/menu/icon - Intersect-4.svg",\
+				"st": "Education",\
+				"md": "four",\
+				"mc": "m3"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "item four",\
+				"img": "/menu/icon - Intersect-3.svg",\
+				"st": "Game",\
+				"md": "three",\
+				"mc": "m3",\
+				"imm": "/menu/icon-frame-3.png"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "item three",\
+				"img": "/menu/icon - Intersect-2.svg",\
+				"st": "Feedback",\
+				"md": "two",\
+				"mc": "m3",\
+				"imm": "/menu/icon-frame-2.png"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "item three",\
+				"img": "/menu/icon - Intersect-1.svg",\
+				"st": "Checks",\
+				"md": "one",\
+				"mc": "m3",\
+				"imm": "/menu/icon-frame-1.png"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "item corr nine",\
+				"img": "/menu/icon - Intersect-10.svg",\
+				"sth": "Checks"\
+			}\
+		}\
+	]},\
+	{"morescroll":[\
+		{"element":\
+			{\
+				"class": "item more",\
+				"img": "/menu/icon - Intersect.svg"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "menu2",\
+				"toping": "yes"\
+			}\
+		}\
+	]},\
+	{"end":[\
+		{"element":\
+			{\
+				"class": "ritem one",\
+				"imh": "/img/coins.svg",\
+				"stm": "146 480",\
+				"mc": "m1"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "break ten"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "space ten"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "ritem ten smenu",\
+				"img": "/menu/menu.svg"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "menu3",\
+				"toping": "yes"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "space"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "break"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "space"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "ritem two",\
+				"img": "/iconss/icon - Intersect.svg",\
+				"mc": "m1",\
+				"sm": "Notifications"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "ritem two",\
+				"img": "/iconss/icon - Intersect-1.svg",\
+				"mc": "m1",\
+				"sm": "Profile"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "ritem corr",\
+				"img": "/iconss/icon - Intersect-1.svg"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "ritem two",\
+				"img": "/iconss/icon - Intersect-2.svg",\
+				"mc": "m1",\
+				"sm": "Log out"\
+			}\
+		},\
+		{"element":\
+			{\
+				"class": "menu1",\
+				"toping": "yes"\
+			}\
+		}\
+	]}\
+	]\
+}';	
+var menu1 = '<div class="toping"></div>';
+var menu2 = '<div class="toping"></div>';
+var menu3 = '<div class="toping"></div>';
+var menujs = JSON.parse(jsmenu);
+function parsemenu (obj) {
+	function blinsert(sobj,toobj){
+		var innerHtml = "";
+		var tobj = '';
+		var divider = '';
+		for (var i = 0; i< sobj.length; i++){
+			for (var array in sobj[i]) {
+				innerHtml +='<div class='+array+'>';
+				for( var j = 0; j< sobj[i][array].length; j++){
+					if(sobj[i][array][j]['element']['class']!=undefined){
+						innerHtml +='<div class="'+sobj[i][array][j]['element']['class']+'">';
+						if(sobj[i][array][j]['element']['img']!=undefined){
+							innerHtml +='<div class="pic"><img src="'+sobj[i][array][j]['element']['img']+'"></div>';
+						}
+						if(sobj[i][array][j]['element']['imh']!=undefined){
+							innerHtml +='<img src="'+sobj[i][array][j]['element']['imh']+'">';
+						}
+
+						if(sobj[i][array][j]['element']['st']!=undefined){
+							innerHtml +='<span class="st">'+sobj[i][array][j]['element']['st']+'</span>';
+						}
+						if(sobj[i][array][j]['element']['stm']!=undefined){
+							innerHtml +='<span>'+sobj[i][array][j]['element']['stm']+'</span>';
+						}
+						if(sobj[i][array][j]['element']['toping']!=undefined){
+							innerHtml +='<div class="toping"></div>';
+						}						
+						if(sobj[i][array][j]['element']['mc']!=undefined){
+							if(sobj[i][array][j]['element']['mc']=='m1'){
+								menu1 +='<div class="mitem '+sobj[i][array][j]['element']['mc']+'">';
+								menu1 +='<img src="';
+								if(sobj[i][array][j]['element']['img']!=undefined){
+									menu1 +=sobj[i][array][j]['element']['img'];
+								} else {
+									menu1 +=sobj[i][array][j]['element']['imh'];
+								}
+								menu1 +='">';
+								menu1 +='<span>';
+								if(sobj[i][array][j]['element']['sm']!=undefined){
+									menu1 += sobj[i][array][j]['element']['sm'];
+								} else {
+									menu1 += sobj[i][array][j]['element']['stm']+" монет";
+									divider = '<div class=divider></div>'; 
+								}
+								menu1 +='</span>';
+								menu1 +='</div>'+divider;
+								divider = '';
+							}
+							if(sobj[i][array][j]['element']['mc']=='m3'){
+								menu3 +='<div class="mitem '+sobj[i][array][j]['element']['mc']+'">';
+								menu2 +='<div class="mitem '+sobj[i][array][j]['element']['md']+'">';
+								menu3 +='<img src="';
+								menu2 +='<img src="';
+								if(sobj[i][array][j]['element']['img']!=undefined){
+									menu3 +=sobj[i][array][j]['element']['img'];
+									menu2 +=sobj[i][array][j]['element']['img'];
+								} else {
+									menu3 +=sobj[i][array][j]['element']['imh'];
+									menu2 +=sobj[i][array][j]['element']['imh'];
+								}
+								menu3 +='">';
+								menu2 +='">';
+								menu3 +='<span>';
+								menu2 +='<span>';
+								menu3 += sobj[i][array][j]['element']['st'];
+								menu2 += sobj[i][array][j]['element']['st'];
+								menu3 +='</span>';
+								menu2 +='</span>';
+								menu3 +='</div>';
+								menu2 +='</div>';
+							}
+						}
+						innerHtml +='</div>';
+
+					}
+				}
+				innerHtml +='</div>'
+			}
+
+		}
+		//console.log(innerHtml);
+		toobj[0].innerHTML = innerHtml;
+		toobj[0].style.display = "flex";
+		document.getElementById('crbut').style.display = "none";
+	}
+	var headd = document.body.getElementsByTagName('header');
+	var robj='';
+	if(Object.keys(obj).length==1){
+			robj = Object.keys(obj)[0];
+			if(obj[robj] instanceof Array){
+					blinsert(obj[robj],headd);
+			}
+	}
+	m=document.getElementsByClassName("menu1");
+	m[0].innerHTML = menu1;
+	m=document.getElementsByClassName("menu2");
+	m[0].innerHTML = menu2;
+	m=document.getElementsByClassName("menu3");
+	m[0].innerHTML = menu3;	
+}
+	
+
+</script>
+</body>
+</html>
+

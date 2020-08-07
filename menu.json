@@ -1,0 +1,214 @@
+{
+"menu": [
+	{"logo": [
+		{"element":
+			{
+				"class": "logo-max",
+				"img": "/header/Logo.svg"
+			}
+		},
+		{"element":
+			{
+				"class": "logo-min",
+				"img": "/header/Vector.svg"
+			}
+		},
+		{"element":
+			{
+				"class": "break"
+			}
+		}
+	]},
+	{"middle":[
+		{"element":
+			{
+				"class": "item eight",
+				"img": "/menu/icon - Intersect-9.svg",
+				"st": "Task",
+				"md": "",
+				"mc": "m3"
+			}
+		},
+		{"element":
+			{
+				"class": "item eight",
+				"img": "/menu/icon - Intersect-8.svg",
+				"st": "Calendar",
+				"md": "eight",
+				"mc": "m3"
+			}
+		},
+		{"element":
+			{
+				"class": "item eight",
+				"img": "/menu/icon - Intersect-7.svg",
+				"st": "Staff",
+				"md": "seven",
+				"mc": "m3"
+			}
+		},
+		{"element":
+			{
+				"class": "item seven",
+				"img": "/menu/icon - Intersect-6.svg",
+				"st": "Link",
+				"md": "six",
+				"mc": "m3"
+			}
+		},
+		{"element":
+			{
+				"class": "item six",
+				"img": "/menu/icon - Intersect-5.svg",
+				"st": "Task",
+				"md": "five",
+				"mc": "m3",
+				"imm": "/menu/icon-frame-6.png"
+			}
+		},
+		{"element":
+			{
+				"class": "item five",
+				"img": "/menu/icon - Intersect-4.svg",
+				"st": "Education",
+				"md": "four",
+				"mc": "m3"
+			}
+		},
+		{"element":
+			{
+				"class": "item four",
+				"img": "/menu/icon - Intersect-3.svg",
+				"st": "Game",
+				"md": "three",
+				"mc": "m3",
+				"imm": "/menu/icon-frame-3.png"
+			}
+		},
+		{"element":
+			{
+				"class": "item three",
+				"img": "/menu/icon - Intersect-2.svg",
+				"st": "Feedback",
+				"md": "two",
+				"mc": "m3",
+				"imm": "/menu/icon-frame-2.png"
+			}
+		},
+		{"element":
+			{
+				"class": "item three",
+				"img": "/menu/icon - Intersect-1.svg",
+				"st": "Checks",
+				"md": "one",
+				"mc": "m3",
+				"imm": "/menu/icon-frame-1.png"
+			}
+		},
+		{"element":
+			{
+				"class": "item corr nine",
+				"img": "/menu/icon - Intersect-10.svg",
+				"sth": "Checks"
+			}
+		}
+	]},
+	{"morescroll":[
+		{"element":
+			{
+				"class": "item more",
+				"img": "/menu/icon - Intersect.svg"
+			}
+		},
+		{"element":
+			{
+				"class": "menu2",
+				"toping": "yes"
+			}
+		}
+	]},
+	{"end":[
+		{"element":
+			{
+				"class": "ritem one",
+				"imh": "/img/coins.svg",
+				"stm": "146 480",
+				"mc": "m1"
+			}
+		},
+		{"element":
+			{
+				"class": "break ten"
+			}
+		},
+		{"element":
+			{
+				"class": "space ten"
+			}
+		},
+		{"element":
+			{
+				"class": "ritem ten smenu",
+				"img": "/menu/menu.svg"
+			}
+		},
+		{"element":
+			{
+				"class": "menu3",
+				"toping": "yes"
+			}
+		},
+		{"element":
+			{
+				"class": "space"
+			}
+		},
+		{"element":
+			{
+				"class": "break"
+			}
+		},
+		{"element":
+			{
+				"class": "space"
+			}
+		},
+		{"element":
+			{
+				"class": "ritem two",
+				"img": "/iconss/icon - Intersect.svg",
+				"mc": "m1",
+				"sm": "Notifications"
+			}
+		},
+		{"element":
+			{
+				"class": "ritem two",
+				"img": "/iconss/icon - Intersect-1.svg",
+				"mc": "m1",
+				"sm": "Profile"
+			}
+		},
+		{"element":
+			{
+				"class": "ritem corr",
+				"img": "/iconss/icon - Intersect-1.svg"
+			}
+		},
+		{"element":
+			{
+				"class": "ritem two",
+				"img": "/iconss/icon - Intersect-2.svg",
+				"mc": "m1",
+				"sm": "Log out"
+			}
+		},
+		{"element":
+			{
+				"class": "menu1",
+				"toping": "yes"
+			}
+		}
+	]}
+	]
+}
